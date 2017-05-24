@@ -160,6 +160,65 @@
        </mj-column>
        <mj-divider border-width="1px" border-style="solid" border-color="#E3E3E3" />
      </mj-section>
+     <mj-section background-color="#FFF" padding-top="0" padding-bottom="30px">
+         <mj-column>
+           <mj-text padding-top="30px" >
+             <div class="max-size">
+               <img src="$IMGBASE$/one-bedroom.jpg" alt="" />
+             </div>
+           </mj-text>
+         </mj-column>
+         <mj-column>
+           <mj-text padding-top="30px" padding-left="0">
+             <div class="new-property">
+               <h1>Two bedroom apartment</h1>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.</p>
+             </div>
+           </mj-text>
+           <mj-group >
+            <mj-column padding="0">
+              <mj-text align="center" padding="0">
+                <div class="new-property-icon">
+                  <img src="$IMGBASE$/bed-icon.png" alt="" />
+                </div>
+                <p class="new-property-icon-number">2</p>
+              </mj-text>
+            </mj-column>
+            <mj-column>
+              <mj-text align="center" padding="0">
+                <div class="new-property-icon">
+                  <img src="$IMGBASE$/bath-icon.png" alt="" />
+                </div>
+                <p class="new-property-icon-number">1</p>
+              </mj-text>
+            </mj-column>
+          </mj-group>
+         </mj-column>
+     </mj-section>
+     <mj-section padding-bottom="0" padding-top="0">
+      <mj-divider border-width="1px" border-style="solid" border-color="#E3E3E3" />
+       <mj-column background-color="#FFF" width="50%" padding="0">
+            <mj-text
+            font-family="Helvetica"
+            padding-top="30px" padding-bottom="30px">
+              <div class="new-listing-content from">
+                <h2>from</h2>
+                <h1>$680,000</h1>
+              </div>
+            </mj-text>
+       </mj-column>
+       <mj-column background-color="#FFF" width="50%" padding="0">
+            <mj-text
+            font-family="Helvetica"
+            padding-top="0" padding-bottom="30px">
+              <div class="new-listing-content">
+                <h2 class="hide-on-mobile">&nbsp;</h2>
+                <a href="#" class="button primary">Enquire Now</a>
+              </div>
+            </mj-text>
+       </mj-column>
+       <mj-divider border-width="1px" border-style="solid" border-color="#E3E3E3" />
+     </mj-section>
 
 
 

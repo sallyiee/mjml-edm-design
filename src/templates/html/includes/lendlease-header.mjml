@@ -39,6 +39,9 @@
       width: 100%;
     }
 
+    a{
+      text-decoration: none;
+    }
 
     .table-row th,
     .table-row td{
@@ -148,7 +151,7 @@
     .button.primary{
       background-color: #00AA23;
       color: #FFF;
-      letter-spacing: 1px;
+      letter-spacing: 2px;
       padding: 15px 0;
       width: 250px;
       display: block;
