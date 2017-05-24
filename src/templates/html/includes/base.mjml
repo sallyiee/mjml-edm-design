@@ -1,0 +1,173 @@
+<mjml>
+  <mj-head>
+  <mj-style>
+    body{
+      background: #ECEBE7 url('$IMGBASE$/bg.png') no-repeat center center;
+    }
+    h1{
+      color: #626262;
+      font-size: 24px;
+      padding: 10px 0;
+    }
+
+    h2{
+      font-size: 20px;
+      padding: 0;
+      color: #626262;
+    }
+
+    h3{
+      font-size: 14px;
+      padding: 0;
+      margin-top: 0;
+    }
+
+    p, ul, ol , li, a,h3,
+    .table-row th,
+    .table-row td,
+    blockquote
+    {
+      color: #626262;
+      font-family: "Helvetica";
+    }
+
+    p,ul,ol{
+      padding-bottom: 15px;
+    }
+
+    a{
+      text-transform: none !important;
+      width: 28% !important;
+      font-weight: bold;
+    }
+
+    .table-row th,
+    .table-row td{
+      text-align: left;
+      border-bottom: 1px solid #CCC;
+    }
+
+    .header-divider{
+      border-bottom: 3px solid #FFF;
+      width: 40px;
+    }
+
+    .figure-description{
+      color: #999999;
+    }
+
+
+    .header-heading{
+      color: #FFF;
+      text-transform: uppercase;
+      font-weight: normal;
+      line-height: 1.2;
+      letter-spacing: 1px;
+      width: 50%;
+      padding-top: 25px;
+      padding-bottom: 0;
+    }
+
+    @media all and (max-width: 480px) {
+      .link-break {
+         display: block;
+       }
+       .logo{
+         text-align: center;
+       }
+       h1{
+         padding: 0;
+       }
+       a{
+         text-transform: none !important;
+         width: auto !important;
+       }
+    }
+
+    @media all and (min-width: 481px) {
+      .logo{
+        text-align: left;
+      }
+    }
+    .nav-item{
+      color: #FFF;
+    }
+
+    .secondary-button{
+      padding: 15px 0;
+      font-size: 16px;
+    }
+
+  </mj-style>
+</mj-head>
+  <mj-body>
+    <mj-container>
+      <!-- Company Header -->
+      <mj-section padding-bottom="0">
+        <mj-column >
+          <mj-text font-size="13" color="#999999"  align="center">
+            <a href="#">View this email in your browser.</a> &nbsp;
+            <span class="link-break">Lorem ipsum dolor sit amet.</span>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Two Logo -->
+      <!-- <mj-section  padding-top="0">
+        <mj-group>
+          <mj-column>
+                <mj-image width="109" align="left" src="$IMGBASE$/logo.png" />
+          </mj-column>
+          <mj-column>
+                <mj-image width="109" align="right" src="$IMGBASE$/logo.png" />
+          </mj-column>
+        </mj-group>
+      </mj-section> -->
+
+      <!-- Single Logo -->
+      <mj-section
+      background-url="$IMGBASE$/lendlease-header.jpg"
+      background-size="cover"
+      padding-bottom="0"
+      >
+          <mj-column class="header-height" >
+                <mj-image width="143" align="left" src="$IMGBASE$/logo.png" />
+                <mj-text>
+                  <div class="header-divider"></div>
+                  <h1 class="header-heading">National Property Showcase</h1>
+                </mj-text>
+          </mj-column>
+      </mj-section>
+
+      <!-- <mj-navbar background-color="#626262" >
+      <mj-column width="100%">
+        <mj-inline-links base-url="#" >
+          <mj-link href="/gettings-started-onboard" color="#ffffff" >Nav Item</mj-link>
+          <mj-link href="/try-it-live" color="#ffffff">Nav Item</mj-link>
+          <mj-link href="/templates" color="#ffffff">Nav Item</mj-link>
+        </mj-inline-links>
+      </mj-column>
+    </mj-navbar> -->
+
+            {% block content %}{% endblock %}
+
+            <!-- <mj-section background-color="#f5f5f5">
+                <mj-text>
+                    <a href="https://www.disney.com">_(messages.footer.account)</a> |
+                    <a href="https://www.disney.com/unsubscribe">_(messages.footer.unsubscribe)</a> |
+                    <a href="https://www.disney.com">_(messages.footer.about)</a>
+                </mj-text>
+                <mj-spacer height="16px" />
+                <mj-text mj-class="footer">
+                    _(messages.footer.from)
+                </mj-text>
+                <mj-spacer height="16px" />
+                <mj-text mj-class="footer">
+                    _(messages.footer.company.line1)<br/>
+                    _(messages.footer.company.line2)
+                </mj-text>
+            </mj-section> -->
+
+        </mj-container>
+    </mj-body>
+</mjml>

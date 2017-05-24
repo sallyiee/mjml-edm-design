@@ -1,0 +1,168 @@
+{% extends "includes/lendlease-header.mjml" %}
+{% block preheader %}_(messages.sample.preheader){% endblock %}
+
+{% block content %}
+
+      <!-- Top Image -->
+      <mj-section padding="0">
+        <mj-text padding="0" line-height="0">
+          <div class="max-size">
+            <img src="$IMGBASE$/hero-sample.jpg" alt="" />
+          </div>
+        </mj-text>
+      </mj-section>
+
+      <mj-section padding-top="0" padding-bottom="0" >
+        <mj-column background-color="#FFF">
+             <mj-text
+             font-family="Helvetica"
+             padding-top="30px" padding-bottom="30px">
+               <p>Hi Name,</p>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                 laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+                 <ul>
+                   <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </li>
+                   <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </li>
+                 </ul>
+                 <h2>Headline 2</h2>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                   incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                   laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                   cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+             </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Pull out Quote -->
+      <mj-section padding-top="30px" padding-bottom="30px" >
+       <mj-column>
+         <mj-image width="143" align="center" src="$IMGBASE$/ben.png"/>
+         <mj-text
+         font-size="14px"
+         text-transform="uppercase"
+         align="center"
+         padding="0"
+         line-height="1">
+           <p>A message from Ben Christie</p>
+         </mj-text>
+         <mj-text
+         font-family="Raleway"
+         padding-left="0"
+         padding-right="0"
+         align="center">
+            <blockquote>“We’re really excited dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididugnt psum dolor sit amet, consectetur adipiscing elit. sit amet, consectetur adipiscing elit, sed do eiusmod tempor.” </blockquote>
+         </mj-text>
+       </mj-column>
+     </mj-section>
+
+     <!-- New Listing -->
+     <mj-section padding-bottom="30px" padding-top="0">
+       <mj-column width="100%">
+         <mj-text padding="0" align="right">
+            <div class="new-listing">New</div>
+         </mj-text>
+       </mj-column>
+       <mj-text padding="0" line-height="0">
+         <div class="max-size">
+           <img src="$IMGBASE$/toorak-park.jpg" alt="" />
+         </div>
+       </mj-text>
+       <mj-divider border-width="5px" border-style="solid" border-color="#006ED2" />
+       <mj-column background-color="#FFF" width="100%" padding="0">
+            <mj-text
+            font-family="Helvetica"
+            padding-top="30px" padding-bottom="30px">
+              <div class="new-listing-content">
+                <h1>Toorak Park</h1>
+                <h2>Melbourne, Australia</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <a class="button secondary" href="#">Find out More</a>
+              </div>
+            </mj-text>
+       </mj-column>
+     </mj-section>
+
+     <!-- New Listing -->
+     <mj-section padding-bottom="0" padding-top="0">
+       <mj-divider border-width="5px" border-style="solid" border-color="#006ED2" />
+       <mj-column background-color="#FFF" width="100%" padding="0">
+            <mj-text
+            font-family="Helvetica"
+            padding-top="30px" padding-bottom="30px">
+              <div class="new-listing-content">
+                <h1>MQ East Tower</h1>
+                <h2 class="space">Melbourne, Australia</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <a class="button secondary" href="#">Find out More</a>
+              </div>
+            </mj-text>
+       </mj-column>
+       <mj-divider border-width="1px" border-style="solid" border-color="#E3E3E3" />
+     </mj-section>
+     <mj-section background-color="#FFF" padding-top="0" padding-bottom="30px">
+         <mj-column>
+           <mj-text padding-top="30px" >
+             <div class="max-size">
+               <img src="$IMGBASE$/one-bedroom.jpg" alt="" />
+             </div>
+           </mj-text>
+         </mj-column>
+         <mj-column>
+           <mj-text padding-top="30px" padding-left="0">
+             <div class="new-property">
+               <h1>One bedroom apartment</h1>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.</p>
+             </div>
+           </mj-text>
+           <mj-group >
+            <mj-column padding="0">
+              <mj-text align="center" padding="0">
+                <div class="new-property-icon">
+                  <img src="$IMGBASE$/bed-icon.png" alt="" />
+                </div>
+                <p class="new-property-icon-number">1</p>
+              </mj-text>
+            </mj-column>
+            <mj-column>
+              <mj-text align="center" padding="0">
+                <div class="new-property-icon">
+                  <img src="$IMGBASE$/bath-icon.png" alt="" />
+                </div>
+                <p class="new-property-icon-number">1</p>
+              </mj-text>
+            </mj-column>
+          </mj-group>
+         </mj-column>
+     </mj-section>
+     <mj-section padding-bottom="0" padding-top="0">
+      <mj-divider border-width="1px" border-style="solid" border-color="#E3E3E3" />
+       <mj-column background-color="#FFF" width="50%" padding="0">
+            <mj-text
+            font-family="Helvetica"
+            padding-top="30px" padding-bottom="30px">
+              <div class="new-listing-content from">
+                <h2>from</h2>
+                <h1>$440,000</h1>
+              </div>
+            </mj-text>
+       </mj-column>
+       <mj-column background-color="#FFF" width="50%" padding="0">
+            <mj-text
+            font-family="Helvetica"
+            padding-top="0" padding-bottom="30px">
+              <div class="new-listing-content">
+                <h2 class="hide-on-mobile">&nbsp;</h2>
+                <a class="button primary">Enquire Now</a>
+              </div>
+            </mj-text>
+       </mj-column>
+       <mj-divider border-width="1px" border-style="solid" border-color="#E3E3E3" />
+     </mj-section>
+
+
+
+
+
+{% endblock %}

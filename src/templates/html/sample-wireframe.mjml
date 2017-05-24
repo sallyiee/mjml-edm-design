@@ -1,0 +1,205 @@
+{% extends "includes/base.mjml" %}
+{% block preheader %}_(messages.sample.preheader){% endblock %}
+
+{% block content %}
+
+      <!-- Intro text - H1 -->
+      <mj-section background-color="#F4F4F3" padding-top="30px" padding-bottom="0" >
+        <mj-column background-color="#FFF" width="80%">
+             <mj-text
+             font-family="Helvetica"
+             padding-top="0" padding-bottom="0">
+               <h1>Headline 1</h1>
+             </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- Intro text - H2 -->
+<mj-section background-color="#F4F4F3" padding-top="0" padding-bottom="0" >
+  <mj-column width="88%">
+       <mj-text
+       font-family="Helvetica">
+         <h2>Headline 2</h2>
+       </mj-text>
+  </mj-column>
+</mj-section>
+
+<!-- Intro text - H2 -->
+<mj-section background-color="#F4F4F3" padding-top="0" padding-bottom="30px" >
+  <mj-column background-color="#FFF" width="80%">
+      <mj-text
+      font-family="Helvetica">
+        <h1>Thank you for your enquiry</h1>
+      </mj-text>
+      <mj-image width="530" src="$IMGBASE$/530x290.png" />
+       <mj-text
+       font-family="Helvetica"
+       padding-top="30px" padding-bottom="0">
+         <p>Hi Name,</p>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+           incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+           laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+           cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+           <ul>
+             <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </li>
+             <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </li>
+           </ul>
+           <h2>Headline 2</h2>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+             laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+             cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+
+       </mj-text>
+  </mj-column>
+</mj-section>
+
+<!-- Table -->
+<mj-section background-color="#F4F4F3" padding-top="0" padding-bottom="30px">
+ <mj-column background-color="#FFF" width="80%">
+   <mj-table font-family="Helvetica" line-height="48px" padding-bottom="30px">
+     <tr class="table-row">
+       <th style="padding: 0 15px 0 0;">Row Heading</th>
+       <td style="padding: 0 15px;">Row Content</td>
+     </tr>
+     <tr class="table-row">
+       <th style="padding: 0 15px 0 0;">Row Heading</th>
+       <td style="padding: 0 15px;">Row Content</td>
+     </tr>
+     <tr class="table-row">
+       <th style="padding: 0 15px 0 0;">Row Heading</th>
+       <td style="padding: 0 15px;">Row Content</td>
+     </tr>
+     <tr class="table-row">
+       <th style="padding: 0 15px 0 0;">Row Heading</th>
+       <td style="padding: 0 15px;">Row Content</td>
+     </tr>
+   </mj-table>
+ </mj-column>
+</mj-section>
+
+<!-- Checklist -->
+<mj-section background-color="#F4F4F3" padding-top="0" padding-bottom="30px">
+<mj-column background-color="#FFF" width="80%">
+  <mj-table font-family="Helvetica"  padding-bottom="30px" >
+    <tr class="table-row">
+      <th style="padding: 10px 15px 10px;">
+          <img src="$IMGBASE$/tick.svg" />
+      </th>
+      <td style="padding: 10px 15px 10px;">List item lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
+    </tr>
+    <tr class="table-row">
+      <th style="padding: 10px 15px 10px;">
+          <img src="$IMGBASE$/tick.svg" />
+      </th>
+      <td style="padding: 10px 15px 10px;">List item lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
+    </tr>
+  </mj-table>
+</mj-column>
+</mj-section>
+<!-- Listing -->
+    <mj-section background-color="#F4F4F3" padding-top="0" padding-bottom="30px">
+     <mj-column background-color="#FFF" width="80%">
+       <mj-table font-family="Helvetica"  padding-bottom="30px" >
+         <tr class="table-row">
+           <td style="padding: 10px 15px 10px;">List item lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
+         </tr>
+         <tr class="table-row">
+           <td style="padding: 10px 15px 10px;">List item lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
+         </tr>
+         <tr class="table-row">
+           <td style="padding: 10px 15px 10px;">List item lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
+         </tr>
+       </mj-table>
+     </mj-column>
+   </mj-section>
+
+     <!-- FAQS -->
+     <mj-section background-color="#F4F4F3" padding-top="0" padding-bottom="30px">
+      <mj-column background-color="#FFF" width="80%">
+        <mj-text padding-bottom="0" padding-left="40px" font-family="Helvetica">
+          <h2>Headline 2</h2>
+        </mj-text>
+        <mj-divider
+      padding-top="0"
+      padding-bottom="0"
+      padding-left="0"
+      padding-right="0"
+      border-width="1px"
+      border-color="#CCC"
+      width= "90%"/>
+        <mj-table font-family="Helvetica"  padding-bottom="0" padding-top="0" >
+          <tr class="table-row">
+            <td style="padding: 0 15px 10px;">
+              <h3>Question: Lorem ipsum dolor sit amet, consectetur adipiscing?</h3>
+              <div>List item lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+            </td>
+          </tr>
+          <tr class="table-row">
+            <td style="padding: 10px 15px 10px;">
+              <h3>Question: Lorem ipsum dolor sit amet, consectetur adipiscing?</h3>
+              <div>List item lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+            </td>
+          </tr>
+          <tr class="table-row">
+            <td style="padding: 10px 15px 10px;">
+              <h3>Question: Lorem ipsum dolor sit amet, consectetur adipiscing?</h3>
+              <div>List item lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+            </td>
+          </tr>
+        </mj-table>
+        <mj-button href="#"
+        font-family="Helvetica"
+        background-color="transparent"
+        color="#626262"
+        vertical-align="middle"
+        font-size="16px"
+        font-weight="bold"
+        text-decoration="underline"
+        padding= "30px 0">
+          Secondary CTA
+         </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Pull out Quote -->
+    <mj-section background-color="#F4F4F3" padding-top="0" padding-bottom="30px">
+     <mj-column background-color="#FFF" width="80%">
+       <mj-text
+       font-size="20px"
+       line-height="27px"
+       font-family="Helvetica"
+       padding-left="0"
+       padding-right="0">
+          <blockquote>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.” </blockquote>
+       </mj-text>
+     </mj-column>
+   </mj-section>
+   <!-- Large Image Video -->
+<mj-section background-color="#F4F4F3" padding-top="0" padding-bottom="30px">
+ <mj-column background-color="#FFF" width="80%">
+   <mj-image width="530"  padding-top="30px" src="$IMGBASE$/530x290.png" />
+   <mj-text
+   font-size="13px"
+   padding-top="0"
+   padding-bottom="0"
+   font-family="Helvetica">
+     <p class="figure-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+   </mj-text>
+ </mj-column>
+</mj-section>
+
+ <!-- Dual Image/Video -->
+ <mj-section background-color="#F4F4F3" padding-top="0" padding-bottom="30px" >
+   <mj-group width="80%" >
+     <mj-column background-color="#FFF" >
+       <mj-image width="530" src="$IMGBASE$/265x166.png" padding="15px 7.5px 15px 15px"/>
+     </mj-column>
+     <mj-column background-color="#FFF">
+       <mj-image width="530" src="$IMGBASE$/265x166.png" padding="15px 15px 15px 7.5px"/>
+     </mj-column>
+   </mj-group>
+</mj-section>
+
+
+
+{% endblock %}

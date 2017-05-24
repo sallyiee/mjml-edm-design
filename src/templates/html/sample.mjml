@@ -1,0 +1,21 @@
+{% extends "includes/base.mjml" %}
+{% block preheader %}_(messages.sample.preheader){% endblock %}
+
+{% block content %}
+
+      <!-- Intro text - H1 -->
+      <mj-section background-color="#F4F4F3" padding-top="30px" padding-bottom="0" >
+        <mj-column background-color="#FFF" width="80%">
+             <mj-text
+             font-family="Helvetica"
+             padding-top="0" padding-bottom="0">
+               <h1>Headline 1</h1>
+             </mj-text>
+        </mj-column>
+      </mj-section>
+
+
+
+
+
+{% endblock %}
